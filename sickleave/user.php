@@ -567,7 +567,7 @@ if ($action === 'generate_pdf' && isPatientLoggedIn()) {
         $pdfHtml .= '.group1-thq-text-elm39 { top: calc(728px + var(--footer-offset)); left: 55px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; font-family: "Times New Roman", serif; }';
         $pdfHtml .= '.group1-thq-text-elm40 { top: calc(750px + var(--footer-offset)); left: 108.35px; color: rgba(20, 0, 255, 1); position: absolute; font-size: 11px; font-weight: 700; text-decoration: underline; pointer-events: auto; font-family: "Times New Roman", serif; }';
         $pdfHtml .= '.placeholder-136 { position: absolute; top: 607px; left: 137px; width: 103.9px; height: 103.9px; display: flex; align-items: center; justify-content: center; pointer-events: auto; }';
-        $pdfHtml .= '.vertical-divider { position: absolute; top: 735px; left: 431px; width: 1px; height: 6.8cm; background-color: #dddddd; }';
+        $pdfHtml .= '.vertical-divider { position: absolute; top: 723px; left: 431px; width: 1.7px; height: 6cm; background-color: #dddddd; }';
         $pdfHtml .= '.thin-slash { font-weight: 300; font-family: "Inter", sans-serif; margin: 0 3px; display: inline-block; }';
         $pdfHtml .= '</style></head><body>';
 
