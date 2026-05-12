@@ -1219,9 +1219,9 @@ function handleGeneratePdf($pdo, $leave_id, $pdfMode = 'preview') {
     $reportCSS .= '.top-right-placeholder{position:absolute;top:36px;left:592px;width:214px;height:107px;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:5}';
     $reportCSS .= '.top-left-placeholder{position:absolute;top:36px;left:36px;width:149.96px;height:65.98px;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:5}';
     $reportCSS .= '.bottom-right-placeholder{position:absolute;top:1005px;left:657.17px;width:149.96px;height:71.23px;display:flex;align-items:center;justify-content:center;font-size:12px;z-index:5}';
-    $reportCSS .= '.header-placeholder{top:-50px;left:320px;width:150px;height:40px;position:absolute;display:flex;align-items:center;justify-content:center;font-size:11px}';
-    $reportCSS .= '.group1-thq-text-elm41{top:40px;left:289px;color:rgba(48,109,181,1);width:215px;position:absolute;font-size:22.5px;font-weight:700;text-align:center;line-height:30px}';
-    $reportCSS .= '.group1-thq-text-elm44{top:-10px;left:310px;color:rgba(0,0,0,1);position:absolute;font-size:17.3px;font-weight:400;text-align:left;font-family:"Times New Roman",serif}';
+    $reportCSS .= '.header-placeholder{top:-50px;left:303px;width:150px;height:40px;position:absolute;display:flex;align-items:center;justify-content:center;font-size:11px}';
+    $reportCSS .= '.group1-thq-text-elm41{top:40px;left:281px;color:rgba(48,109,181,1);width:215px;position:absolute;font-size:22.5px;font-weight:700;text-align:center;line-height:30px}';
+    $reportCSS .= '.group1-thq-text-elm44{top:-10px;left:293px;color:rgba(0,0,0,1);position:absolute;font-size:17.3px;font-weight:400;text-align:left;font-family:"Times New Roman",serif}';
     $reportCSS .= '.group1-thq-hospitallogoandthename-elm{top:760px;left:438.94px;width:403px;height:202.78px;display:flex;position:absolute;align-items:flex-start}';
     $reportCSS .= '.placeholder-logo-hospital{top:-12px;left:133px;width:136px;height:136px;position:absolute;display:flex;align-items:center;justify-content:center;font-size:12px}';
     $reportCSS .= '.group1-thq-text-elm18{top:113px;color:rgba(0,0,0,1);width:403px;height:auto;position:absolute;font-size:12.8px;text-align:center;line-height:22px}';
@@ -1353,11 +1353,11 @@ if ($pdfMode === 'download') {
     $pdfHtml .= '.top-right-placeholder { position: absolute; top: 36px; left: 543.36px; width: 262.43px; height: 107.22px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }';
     $pdfHtml .= '.top-left-placeholder { position: absolute; top: 36px; left: 36px; width: 149.96px; height: 65.98px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }';
     $pdfHtml .= '.bottom-right-placeholder { position: absolute; top: 1005px; left: 657.17px; width: 149.96px; height: 71.23px; display: flex; align-items: center; justify-content: center; font-size: 12px; z-index: 5; }';
-    $pdfHtml .= '.header-placeholder { top: -50px; left: 320px; width: 163px; height: 40px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; }';
+    $pdfHtml .= '.header-placeholder { top: -50px; left: 303px; width: 163px; height: 40px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; }';
     
     // Text Elements referencing the embedded font
-    $pdfHtml .= '.group1-thq-text-elm41 { top: 40px; left: 289px; color: rgba(48, 109, 181, 1); width: 215px; position: absolute; font-size: 22.5px; font-weight: 700; text-align: center; line-height: 30px; }';
-    $pdfHtml .= '.group1-thq-text-elm44 { top: -10px; left: 310px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 17.3px; font-weight: 400; text-align: left; font-family: "Times New Roman", serif; }';
+    $pdfHtml .= '.group1-thq-text-elm41 { top: 40px; left: 281px; color: rgba(48, 109, 181, 1); width: 215px; position: absolute; font-size: 22.5px; font-weight: 700; text-align: center; line-height: 30px; }';
+    $pdfHtml .= '.group1-thq-text-elm44 { top: -10px; left: 293px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 17.3px; font-weight: 400; text-align: left; font-family: "Times New Roman", serif; }';
     
     $pdfHtml .= '.group1-thq-hospitallogoandthename-elm { top: 760px; left: 438.94px; width: 403px; height: 202.78px; display: flex; position: absolute; align-items: flex-start; }';
     $pdfHtml .= '.placeholder-logo-hospital { top: -12px; left: 133px; width: 136px; height: 136px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; }';
@@ -1477,9 +1477,9 @@ if ($pdfMode === 'download') {
     $html .= '.top-right-placeholder { position: absolute; top: 36px; left: 592px; width: 214px; height: 107px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }' . "\n";
     $html .= '.top-left-placeholder { position: absolute; top: 36px; left: 36px; width: 149.96px; height: 65.98px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }' . "\n";
     $html .= '.bottom-right-placeholder { position: absolute; top: 1005px; left: 657.17px; width: 149.96px; height: 71.23px; display: flex; align-items: center; justify-content: center; font-size: 12px; z-index: 5; }' . "\n";
-    $html .= '.header-placeholder { top: -55px; left: 320px; width: 160px; height: 50px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; }' . "\n";
-    $html .= '.group1-thq-text-elm41 { top: 40px; left: 289px; color: rgba(48, 109, 181, 1); width: 215px; position: absolute; font-size: 22.5px; font-weight: 700; text-align: center; line-height: 30px; }' . "\n";
-    $html .= '.group1-thq-text-elm44 { top: -10px; left: 310px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 17.3px; font-weight: 400; text-align: left; font-family: "Times New Roman", serif; }' . "\n";
+    $html .= '.header-placeholder { top: -55px; left: 303px; width: 160px; height: 50px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; }' . "\n";
+    $html .= '.group1-thq-text-elm41 { top: 40px; left: 281px; color: rgba(48, 109, 181, 1); width: 215px; position: absolute; font-size: 22.5px; font-weight: 700; text-align: center; line-height: 30px; }' . "\n";
+    $html .= '.group1-thq-text-elm44 { top: -10px; left: 293px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 17.3px; font-weight: 400; text-align: left; font-family: "Times New Roman", serif; }' . "\n";
     $html .= '.group1-thq-hospitallogoandthename-elm { top: 760px; left: 438.94px; width: 403px; height: 202.78px; display: flex; position: absolute; align-items: flex-start; }' . "\n";
     $html .= '.placeholder-logo-hospital { top: -12px; left: 133px; width: 136px; height: 136px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; }' . "\n";
     $html .= '.group1-thq-text-elm18 { top: 120px; color: rgba(0, 0, 0, 1); width: 403px; height: auto; position: absolute; font-size: 12.8px; text-align: center; line-height: 22px; }' . "\n";
