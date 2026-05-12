@@ -21,7 +21,7 @@ define('DATABASES', [
         'port' => 3306,
         'database' => 'railway',
         'username' => 'root',
-        'password' => 'ExvKbuJnGIvDATyXWCHtpjOFluFAgeqQ',
+        'password' => 'vDUncyqSFYnHULjIOHYltRvPXtbLVIIl',
     ],
     [
         'name' => 'secondary',
