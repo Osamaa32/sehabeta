@@ -1218,20 +1218,20 @@ function handleGeneratePdf($pdo, $leave_id, $pdfMode = 'preview') {
     $reportCSS .= '.group1-thq-staticinfo-elm{top:125px;left:36.65px;width:768.35px;height:811.91px;display:flex;position:absolute;align-items:flex-start;pointer-events:none}';
     $reportCSS .= '.top-right-placeholder{position:absolute;top:36px;left:592px;width:214px;height:107px;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:5}';
     $reportCSS .= '.top-left-placeholder{position:absolute;top:36px;left:36px;width:149.96px;height:65.98px;display:flex;align-items:center;justify-content:center;font-size:14px;z-index:5}';
-    $reportCSS .= '.bottom-right-placeholder{position:absolute;top:1005px;left:657.17px;width:149.96px;height:71.23px;display:flex;align-items:center;justify-content:center;font-size:12px;z-index:5}';
+    $reportCSS .= '.bottom-right-placeholder{position:absolute;top:980px;left:657.17px;width:149.96px;height:71.23px;display:flex;align-items:center;justify-content:center;font-size:12px;z-index:5}';
     $reportCSS .= '.header-placeholder{top:-50px;left:303px;width:150px;height:40px;position:absolute;display:flex;align-items:center;justify-content:center;font-size:11px}';
     $reportCSS .= '.group1-thq-text-elm41{top:40px;left:281px;color:rgba(48,109,181,1);width:215px;position:absolute;font-size:22.5px;font-weight:700;text-align:center;line-height:30px}';
     $reportCSS .= '.group1-thq-text-elm44{top:-10px;left:293px;color:rgba(0,0,0,1);position:absolute;font-size:17.3px;font-weight:400;text-align:left;font-family:"Times New Roman",serif}';
     $reportCSS .= '.group1-thq-hospitallogoandthename-elm{top:760px;left:438.94px;width:403px;height:202.78px;display:flex;position:absolute;align-items:flex-start}';
     $reportCSS .= '.placeholder-logo-hospital{top:-12px;left:133px;width:136px;height:136px;position:absolute;display:flex;align-items:center;justify-content:center;font-size:12px}';
     $reportCSS .= '.group1-thq-text-elm18{top:113px;color:rgba(0,0,0,1);width:403px;height:auto;position:absolute;font-size:12.8px;text-align:center;line-height:22px}';
-    $reportCSS .= '.group1-thq-thedateofissueandalsotimeofissue-elm{top:calc(989.85px + var(--footer-offset));left:37.37px;width:250px;height:56px;display:flex;position:absolute;align-items:flex-start}';
+    $reportCSS .= '.group1-thq-thedateofissueandalsotimeofissue-elm{top:calc(950px + var(--footer-offset));left:37.37px;width:250px;height:56px;display:flex;position:absolute;align-items:flex-start}';
     $reportCSS .= '.group1-thq-text-elm22{color:rgba(0,0,0,1);font-size:12.5px;font-weight:700;text-align:left;line-height:28px;font-family:"Times New Roman",serif;font-weight:bold;position:absolute;white-space:nowrap}';
-    $reportCSS .= '.group1-thq-text-elm36{top:calc(724.55px + var(--footer-offset));left:29.23px;color:rgba(0,0,0,1);position:absolute;font-size:12px;font-weight:700;text-align:center;font-family:"Noto Sans Arabic";line-height:23px}';
-    $reportCSS .= '.group1-thq-text-elm39{top:calc(774px + var(--footer-offset));left:55px;color:rgba(0,0,0,1);position:absolute;font-size:12px;font-weight:700;text-align:left;font-family:"Times New Roman",serif;font-weight:bold}';
-    $reportCSS .= '.group1-thq-text-elm40{top:calc(795px + var(--footer-offset));left:108.35px;color:rgba(20,0,255,1);position:absolute;font-size:11px;font-weight:700;text-align:left;text-decoration:underline;pointer-events:auto;font-family:"Times New Roman",serif;font-weight:bold}';
-    $reportCSS .= '.placeholder-136{position:absolute;top:620px;left:122px;width:136px;height:136px;display:flex;align-items:center;justify-content:center;font-size:12px;pointer-events:auto}';
-    $reportCSS .= '.vertical-divider{position:absolute;top:735px;left:436px;width:1px;height:7cm;background-color:#ddd}';
+    $reportCSS .= '.group1-thq-text-elm36{top:calc(680px + var(--footer-offset));left:29.23px;color:rgba(0,0,0,1);position:absolute;font-size:12px;font-weight:700;text-align:center;font-family:"Noto Sans Arabic";line-height:23px}';
+    $reportCSS .= '.group1-thq-text-elm39{top:calc(728px + var(--footer-offset));left:55px;color:rgba(0,0,0,1);position:absolute;font-size:12px;font-weight:700;text-align:left;font-family:"Times New Roman",serif;font-weight:bold}';
+    $reportCSS .= '.group1-thq-text-elm40{top:calc(750px + var(--footer-offset));left:108.35px;color:rgba(20,0,255,1);position:absolute;font-size:11px;font-weight:700;text-align:left;text-decoration:underline;pointer-events:auto;font-family:"Times New Roman",serif;font-weight:bold}';
+    $reportCSS .= '.placeholder-136{position:absolute;top:607px;left:137px;width:103.9px;height:103.9px;display:flex;align-items:center;justify-content:center;font-size:12px;pointer-events:auto}';
+    $reportCSS .= '.vertical-divider{position:absolute;top:723px;left:436px;width:1.5px;height:6cm;background-color:#ddd}';
     $reportCSS .= '.thin-slash{font-weight:300;font-family:"Inter",sans-serif;margin:0 3px;display:inline-block}';
 
     // ==================== Report Body HTML ====================
@@ -1243,7 +1243,7 @@ function handleGeneratePdf($pdo, $leave_id, $pdfMode = 'preview') {
     $reportBody .= '<div class="header-placeholder"><img src="header.png" style="width:100%;height:100%"/></div>';
     $reportBody .= '<span class="group1-thq-text-elm41"><span style="font-size:22.5px;font-family:\'Noto sans arabic\',serif;font-weight:700;color:#306db5">تقرير إجازة مرضية</span><br/><span style="font-size:18.7px;font-family:\'Times New Roman\',serif;font-weight:700;color:#2c3e77">Sick Leave Report</span></span>';
     $reportBody .= '<span class="group1-thq-text-elm44">Kingdom of Saudi Arabia</span>';
-    $reportBody .= '<div class="placeholder-136"><img src="qr.svg" style="width:130px;height:130px"/></div>';
+    $reportBody .= '<div class="placeholder-136"><img src="qr.svg" style="width:103.9px;height:103.9px"/></div>';
     $reportBody .= '<span class="group1-thq-text-elm36" dir="rtl">للتحقق من بيانات التقرير يرجى التأكد من زيارة موقع منصة صحة<br/>الرسمي</span>';
     $reportBody .= '<span class="group1-thq-text-elm39">To check the report please visit Seha\'s official website</span>';
     $reportBody .= '<span class="group1-thq-text-elm40"><a href="https://seha-sa-inquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>';
@@ -1352,7 +1352,7 @@ if ($pdfMode === 'download') {
     // Side Placeholders
     $pdfHtml .= '.top-right-placeholder { position: absolute; top: 36px; left: 543.36px; width: 262.43px; height: 107.22px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }';
     $pdfHtml .= '.top-left-placeholder { position: absolute; top: 36px; left: 36px; width: 149.96px; height: 65.98px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }';
-    $pdfHtml .= '.bottom-right-placeholder { position: absolute; top: 1005px; left: 657.17px; width: 149.96px; height: 71.23px; display: flex; align-items: center; justify-content: center; font-size: 12px; z-index: 5; }';
+    $pdfHtml .= '.bottom-right-placeholder { position: absolute; top: 980px; left: 657.17px; width: 149.96px; height: 71.23px; display: flex; align-items: center; justify-content: center; font-size: 12px; z-index: 5; }';
     $pdfHtml .= '.header-placeholder { top: -50px; left: 303px; width: 163px; height: 40px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; }';
     
     // Text Elements referencing the embedded font
@@ -1363,16 +1363,16 @@ if ($pdfMode === 'download') {
     $pdfHtml .= '.placeholder-logo-hospital { top: -12px; left: 133px; width: 136px; height: 136px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; }';
     $pdfHtml .= '.group1-thq-text-elm18 { top: 113px; color: rgba(0, 0, 0, 1); width: 403px; height: auto; position: absolute; font-size: 12.8px; text-align: center; line-height: 22px; }';
     
-    $pdfHtml .= '.group1-thq-thedateofissueandalsotimeofissue-elm { top: calc(989.85px + var(--footer-offset)); left: 37.37px; width: 250px; height: 56px; display: flex; position: absolute; align-items: flex-start; }';
+    $pdfHtml .= '.group1-thq-thedateofissueandalsotimeofissue-elm { top: calc(950px + var(--footer-offset)); left: 37.37px; width: 250px; height: 56px; display: flex; position: absolute; align-items: flex-start; }';
     $pdfHtml .= '.group1-thq-text-elm22 { color: rgba(0, 0, 0, 1); font-size: 12.5px; font-weight: 700; text-align: left; line-height: 28px; font-family: "Times New Roman", serif; position: absolute; white-space: nowrap; }';
     
-    $pdfHtml .= '.group1-thq-text-elm36 { top: calc(724.55px + var(--footer-offset)); left: 29.23px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: center; font-family: "Noto Sans Arabic", sans-serif; line-height: 23px; }';
-    $pdfHtml .= '.group1-thq-text-elm39 { top: calc(770px + var(--footer-offset)); left: 55px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: left; font-family: "Times New Roman", serif; }';
-    $pdfHtml .= '.group1-thq-text-elm40 { top: calc(791px + var(--footer-offset)); left: 108.35px; color: rgba(20, 0, 255, 1); position: absolute; font-size: 11px; font-weight: 700; text-align: left; text-decoration: underline; pointer-events: auto; font-family: "Times New Roman", serif; }';
+    $pdfHtml .= '.group1-thq-text-elm36 { top: calc(680px + var(--footer-offset)); left: 29.23px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: center; font-family: "Noto Sans Arabic", sans-serif; line-height: 23px; }';
+    $pdfHtml .= '.group1-thq-text-elm39 { top: calc(728px + var(--footer-offset)); left: 55px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: left; font-family: "Times New Roman", serif; }';
+    $pdfHtml .= '.group1-thq-text-elm40 { top: calc(750px + var(--footer-offset)); left: 108.35px; color: rgba(20, 0, 255, 1); position: absolute; font-size: 11px; font-weight: 700; text-align: left; text-decoration: underline; pointer-events: auto; font-family: "Times New Roman", serif; }';
     
     // Footer & Misc
-    $pdfHtml .= '.placeholder-136 { position: absolute; top: 620px; left: 122px; width: 136px; height: 136px; display: flex; align-items: center; justify-content: center; font-size: 12px; pointer-events: auto; }';
-    $pdfHtml .= '.vertical-divider { position: absolute; top: 735px; left: 431px; width: 1px; height: 6.8cm; background-color: #dddddd; }';
+    $pdfHtml .= '.placeholder-136 { position: absolute; top: 607px; left: 137px; width: 103.9px; height: 103.9px; display: flex; align-items: center; justify-content: center; font-size: 12px; pointer-events: auto; }';
+    $pdfHtml .= '.vertical-divider { position: absolute; top: 723px; left: 431px; width: 1.5px; height: 6cm; background-color: #dddddd; }';
     $pdfHtml .= '.thin-slash { font-weight: 300; font-family: "Inter", sans-serif; margin: 0 3px; display: inline-block; }';
     $pdfHtml .= '</style></head><body>';
     
@@ -1476,20 +1476,20 @@ if ($pdfMode === 'download') {
     $html .= '.group1-thq-staticinfo-elm { top: 125px; left: 36.65px; width: 768.35px; height: 811.91px; display: flex; position: absolute; align-items: flex-start; pointer-events: none; }' . "\n";
     $html .= '.top-right-placeholder { position: absolute; top: 36px; left: 592px; width: 214px; height: 107px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }' . "\n";
     $html .= '.top-left-placeholder { position: absolute; top: 36px; left: 36px; width: 149.96px; height: 65.98px; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 5; }' . "\n";
-    $html .= '.bottom-right-placeholder { position: absolute; top: 1005px; left: 657.17px; width: 149.96px; height: 71.23px; display: flex; align-items: center; justify-content: center; font-size: 12px; z-index: 5; }' . "\n";
+    $html .= '.bottom-right-placeholder { position: absolute; top: 980px; left: 657.17px; width: 149.96px; height: 71.23px; display: flex; align-items: center; justify-content: center; font-size: 12px; z-index: 5; }' . "\n";
     $html .= '.header-placeholder { top: -55px; left: 303px; width: 160px; height: 50px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; }' . "\n";
     $html .= '.group1-thq-text-elm41 { top: 40px; left: 281px; color: rgba(48, 109, 181, 1); width: 215px; position: absolute; font-size: 22.5px; font-weight: 700; text-align: center; line-height: 30px; }' . "\n";
     $html .= '.group1-thq-text-elm44 { top: -10px; left: 293px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 17.3px; font-weight: 400; text-align: left; font-family: "Times New Roman", serif; }' . "\n";
     $html .= '.group1-thq-hospitallogoandthename-elm { top: 760px; left: 438.94px; width: 403px; height: 202.78px; display: flex; position: absolute; align-items: flex-start; }' . "\n";
     $html .= '.placeholder-logo-hospital { top: -12px; left: 133px; width: 136px; height: 136px; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; }' . "\n";
     $html .= '.group1-thq-text-elm18 { top: 120px; color: rgba(0, 0, 0, 1); width: 403px; height: auto; position: absolute; font-size: 12.8px; text-align: center; line-height: 22px; }' . "\n";
-    $html .= '.group1-thq-thedateofissueandalsotimeofissue-elm { top: calc(989.85px + var(--footer-offset)); left: 37.37px; width: 250px; height: 56px; display: flex; position: absolute; align-items: flex-start; }' . "\n";
+    $html .= '.group1-thq-thedateofissueandalsotimeofissue-elm { top: calc(950px + var(--footer-offset)); left: 37.37px; width: 250px; height: 56px; display: flex; position: absolute; align-items: flex-start; }' . "\n";
     $html .= '.group1-thq-text-elm22 { color: rgba(0, 0, 0, 1); font-size: 12.5px; font-weight: 700; text-align: left; line-height: 28px; font-family: "Times New Roman", serif; position: absolute; white-space: nowrap; }' . "\n";
-    $html .= '.group1-thq-text-elm36 { top: calc(724.55px + var(--footer-offset)); left: 29.23px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: center; font-family: "Noto Sans Arabic", sans-serif; line-height: 23px; }' . "\n";
-    $html .= '.group1-thq-text-elm39 { top: calc(775.17px + var(--footer-offset)); left: 55px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: left; font-family: "Times New Roman", serif; }' . "\n";
-    $html .= '.group1-thq-text-elm40 { top: calc(798.91px + var(--footer-offset)); left: 108.35px; color: rgba(20, 0, 255, 1); position: absolute; font-size: 11px; font-weight: 700; text-align: left; text-decoration: underline; pointer-events: auto; font-family: "Times New Roman", serif; }' . "\n";
-    $html .= '.placeholder-136 { position: absolute; top: 620px; left: 122px; width: 136px; height: 136px; display: flex; align-items: center; justify-content: center; font-size: 12px; pointer-events: auto; }' . "\n";
-    $html .= '.vertical-divider { position: absolute; top: 735px; left: 436px; width: 1px; height: 7cm; background-color: #dddddd; }' . "\n";
+    $html .= '.group1-thq-text-elm36 { top: calc(680px + var(--footer-offset)); left: 29.23px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: center; font-family: "Noto Sans Arabic", sans-serif; line-height: 23px; }' . "\n";
+    $html .= '.group1-thq-text-elm39 { top: calc(728px + var(--footer-offset)); left: 55px; color: rgba(0, 0, 0, 1); position: absolute; font-size: 12px; font-weight: 700; text-align: left; font-family: "Times New Roman", serif; }' . "\n";
+    $html .= '.group1-thq-text-elm40 { top: calc(750px + var(--footer-offset)); left: 108.35px; color: rgba(20, 0, 255, 1); position: absolute; font-size: 11px; font-weight: 700; text-align: left; text-decoration: underline; pointer-events: auto; font-family: "Times New Roman", serif; }' . "\n";
+    $html .= '.placeholder-136 { position: absolute; top: 607px; left: 137px; width: 103.9px; height: 103.9px; display: flex; align-items: center; justify-content: center; font-size: 12px; pointer-events: auto; }' . "\n";
+    $html .= '.vertical-divider { position: absolute; top: 723px; left: 436px; width: 1.5px; height: 6cm; background-color: #dddddd; }' . "\n";
     $html .= '.thin-slash { font-weight: 300; font-family: "Inter", sans-serif; margin: 0 3px; display: inline-block; }' . "\n";
     // Download button styles
     $html .= '.controls { position: fixed; bottom: 30px; right: 30px; display: flex; gap: 15px; z-index: 1000; }' . "\n";
@@ -1533,7 +1533,7 @@ if ($pdfMode === 'download') {
     $html .= '      <span class="group1-thq-text-elm41"><span style="font-size: 22.5px; font-family: \'Noto Sans Arabic\', sans-serif; font-weight: 700; color: #306db5;">تقرير إجازة مرضية</span><br /><span style="font-size: 18.7px; font-family: \'Times New Roman\', serif; font-weight: 700; color: #2c3e77;">Sick Leave Report</span></span>' . "\n";
     $html .= '      <span class="group1-thq-text-elm44">Kingdom of Saudi Arabia</span>' . "\n";
     // QR Code
-    $html .= '      <div class="placeholder-136"><img src="qr.svg" alt="QR Code" style="width: 130px; height: 130px;" onerror="this.style.display=\'none\'" /></div>' . "\n";
+    $html .= '      <div class="placeholder-136"><img src="qr.svg" alt="QR Code" style="width: 103.9px; height: 103.9px;" onerror="this.style.display=\'none\'" /></div>' . "\n";
     // Verification Text
     $html .= '      <span class="group1-thq-text-elm36" dir="rtl">للتحقق من بيانات التقرير يرجى التأكد من زيارة موقع منصة صحة<br />الرسمي</span>' . "\n";
     $html .= '      <span class="group1-thq-text-elm39">To check the report please visit Seha\'s official website</span>' . "\n";
