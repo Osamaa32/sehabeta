@@ -582,7 +582,7 @@ if ($action === 'generate_pdf' && isPatientLoggedIn()) {
         $pdfHtml .= '<div class="placeholder-136"><img src="' . $baseUrl . 'qr.svg" style="width:130px;height:130px"/></div>';
         $pdfHtml .= '<span class="group1-thq-text-elm36" dir="rtl">للتحقق من بيانات التقرير يرجى التأكد من زيارة موقع منصة صحة<br/>الرسمي</span>';
         $pdfHtml .= '<span class="group1-thq-text-elm39">To check the report please visit Seha\'s official website</span>';
-        $pdfHtml .= '<span class="group1-thq-text-elm40"><a href="https://seha-sa-iniquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>';
+        $pdfHtml .= '<span class="group1-thq-text-elm40"><a href="https://seha-sa-inquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>';
         $pdfHtml .= '</div>';
         $pdfHtml .= '<table class="info-table" cellpadding="0" cellspacing="0"><tbody>';
         $pdfHtml .= '<tr><td class="en-title">Leave ID</td><td class="data-cell" colspan="2">' . $sc . '</td><td class="ar-title">رمز الإجازة</td></tr>';
@@ -694,7 +694,7 @@ function downloadPDF(){var b=document.getElementById('btnDownloadPDF');b.textCon
     <div class="placeholder-136"><img src="<?= $baseUrl ?>qr.svg" style="width:130px;height:130px" onerror="this.style.display='none'"/></div>
     <span class="group1-thq-text-elm36" dir="rtl">للتحقق من بيانات التقرير يرجى التأكد من زيارة موقع منصة صحة<br/>الرسمي</span>
     <span class="group1-thq-text-elm39">To check the report please visit Seha's official website</span>
-    <span class="group1-thq-text-elm40"><a href="https://seha-sa-iniquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>
+    <span class="group1-thq-text-elm40"><a href="https://seha-sa-inquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>
   </div>
   <table class="info-table" cellpadding="0" cellspacing="0"><tbody>
     <tr><td class="en-title">Leave ID</td><td class="data-cell" colspan="2"><?= $sc ?></td><td class="ar-title">رمز الإجازة</td></tr>
