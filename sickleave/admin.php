@@ -1246,7 +1246,7 @@ function handleGeneratePdf($pdo, $leave_id, $pdfMode = 'preview') {
     $reportBody .= '<div class="placeholder-136"><img src="qr.svg" style="width:130px;height:130px"/></div>';
     $reportBody .= '<span class="group1-thq-text-elm36" dir="rtl">للتحقق من بيانات التقرير يرجى التأكد من زيارة موقع منصة صحة<br/>الرسمي</span>';
     $reportBody .= '<span class="group1-thq-text-elm39">To check the report please visit Seha\'s official website</span>';
-    $reportBody .= '<span class="group1-thq-text-elm40"><a href="https://seha-sa-iniquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>';
+    $reportBody .= '<span class="group1-thq-text-elm40"><a href="https://seha-sa-inquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>';
     $reportBody .= '</div>';
     // Table
     $reportBody .= '<table class="info-table" cellpadding="0" cellspacing="0"><tbody>';
@@ -1537,7 +1537,7 @@ if ($pdfMode === 'download') {
     // Verification Text
     $html .= '      <span class="group1-thq-text-elm36" dir="rtl">للتحقق من بيانات التقرير يرجى التأكد من زيارة موقع منصة صحة<br />الرسمي</span>' . "\n";
     $html .= '      <span class="group1-thq-text-elm39">To check the report please visit Seha\'s official website</span>' . "\n";
-    $html .= '      <span class="group1-thq-text-elm40"><a href="https://seha-sa-iniquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>' . "\n";
+    $html .= '      <span class="group1-thq-text-elm40"><a href="https://seha-sa-inquiries-slenquiry.up.railway.app/" target="_blank">www.seha.sa/#/inquiries/slenquiry</a></span>' . "\n";
     $html .= '    </div>' . "\n";
     // Table
     $html .= '    <table class="info-table" cellpadding="0" cellspacing="0"><tbody>' . "\n";
