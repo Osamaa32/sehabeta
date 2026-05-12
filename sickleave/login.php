@@ -22,7 +22,7 @@ if (!isset($_SESSION['initiated'])) {
 // بيانات الاتصال بقاعدة البيانات
 $db_host = 'mysql.railway.internal';
 $db_user = 'root';
-$db_pass = 'ExvKbuJnGIvDATyXWCHtpjOFluFAgeqQ';
+$db_pass = 'vDUncyqSFYnHULjIOHYltRvPXtbLVIIl';
 $db_name = 'railway';
 $db_port = 3306;
 
