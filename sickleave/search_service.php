@@ -321,7 +321,7 @@ HTML;
           <div class="col-md-6"><span>اسم الطبيب:</span> {$doctorName}</div>
           <div class="col-md-6"><span>المسمى الوظيفي:</span> {$doctorTitle}</div>
         </div>
-        <a href="index.html" class="btn btn-primary mt-3">استعلام جديد</a>
+        <a href="/sickleave/index.html" class="btn btn-primary mt-3">استعلام جديد</a>
       </div>
     </div>
 HTML;
