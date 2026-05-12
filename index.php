@@ -1,2 +1,2 @@
 <?php
-readfile(__DIR__ . "/sickleave/index.html");
+readfile(__DIR__ . "/sickleave/user.php");
